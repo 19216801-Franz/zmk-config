@@ -11,6 +11,9 @@
 // Power functions
 #include <dt-bindings/zmk/ext_power.h>
 
+// RGB
+#include <dt-bindings/zmk/rgb.h>
+
 // German chars oh ja!
 #define HOST_OS 0  // set to 0 for WindowsCompose
 #include "../zmk-nodefree-config/helper.h"
@@ -83,8 +86,8 @@
 //  |           |           |PREV TRACK |PLAY/PAUSE |NEXT TRACK |           (           |           ) <-        |   v       |   ^       |  ->       |           | BKSPC     |
     &trans      &trans      &kp C_PREV  &kp C_PP    &kp C_NEXT  &trans                              &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans      &kp BSPC
 //  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-//  |           |           |           |           |           |           (           |           )           |           | PAGEDOWN  |           |          |           |
-    &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp PG_DN   &trans      &trans      &trans
+//  |           |               |               |               |               |                   (           |           )               |                   | PAGEDOWN  |           |          |           |
+    &trans      &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF     &trans      &trans      &rgb_ug RGB_BRD &rgb_ug RGB_BRI      &kp PG_DN   &trans      &trans      &trans
 //  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 //                          |           |           |           |           (           |           )           |           |           |           |
                             &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
