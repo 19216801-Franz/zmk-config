@@ -109,7 +109,7 @@
     &trans      &de_ae      &de_eszett  &trans      &trans      &trans                              &trans      &trans      &trans		&trans      &trans      &trans
 //  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 //  |           |           |           |           |           |           (           |           )           |           |           |           |          |            |
-    &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans		&trans      &trans      &trans
+    &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &ext_power EXT_POWER_TOGGLE_CMD      &rgb_ug RGB_TOG      &trans		&trans      &trans      &trans
 //  |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 //                          |           |           |           |           (           |           )           |           |           |           |
                             &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
